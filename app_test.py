@@ -22,7 +22,7 @@ class TestAPI(unittest.TestCase):
     def test_1_get_all_customers(self):
         resp = app.test_client().get(self.CUSTOMERS_URL)
         self.assertEqual(resp.status_code, 200)
-        self.assertEquals(len(json.loads(resp.data)), 2)
+        self.assertEqual(len(json.loads(resp.data)), 2)
         print("Test 1 completed")
 
     def test_2_add_new_cutomer(self):

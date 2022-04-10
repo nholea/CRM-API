@@ -25,6 +25,3 @@ USER appuser
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
 CMD ["gunicorn", "--bind", "0.0.0.0:3000", "app:app"]
-
-# docker run --publish 3000:3000 crm-api
-# docker build -t crm-api . 
