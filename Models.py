@@ -18,7 +18,7 @@ class Customer():
 
 customers= []
 
-customer1 = Customer(1,"John", "Smith","jsmith@gmail.com","1992-09-15")
+customer1 = Customer(1,"Michael", "Smith","jsmith@gmail.com","1992-09-15")
 customer2 = Customer(2,"Sarah", "Wilson", "swil@outlook.com","1950-12-28")
 customer3 = Customer(3,"Rachel","Davies","rachdvl@gmail.com","2000-01-16")
 
