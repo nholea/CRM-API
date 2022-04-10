@@ -4,12 +4,12 @@ from flask import Flask, jsonify, request
 from Models import  Customer, customers
 
 app = Flask(__name__)
-
-# Test
-# @app.route("/hi")
-# def hi():
-# return jsonify({"message": "Bye!"})
-
+'''
+Test
+@app.route("/hi")
+def hi():
+    return jsonify({"message": "Bye!"})
+'''
 
 @app.route("/")
 def welcome():
